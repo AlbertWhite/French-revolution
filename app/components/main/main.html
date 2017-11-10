@@ -1,0 +1,46 @@
+<div class="header">
+  法国大革命
+</div>
+
+<div class="content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-6 col-sm-6 content">
+        <div class="content-title">{{app.currentTitle}}</div>
+        <div class="content-content">{{app.currentText}}</div>
+
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <img src="./assets/img/{{app.currentImgPath}}.jpg"/>
+        <span class="image-description">{{app.currentImageTitle}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="line">
+
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="col-sm-3 col-md-3 part part1" ng-click="app.changePart(0)">
+        <div class="footer-title active">革命前兆</div>
+        <div class="time">1780 - 1789</div>
+      </div>
+      <div class="col-sm-3 col-md-3 part part2" ng-click="app.changePart(7)">
+        <div class="footer-title">一次革命</div>
+        <div class="time">1780 - 1789</div>
+      </div>
+      <div class="col-sm-3 col-md-3 part part3" ng-click="app.changePart(13)">
+        <div class="footer-title">二次革命</div>
+        <div class="time">1793 - 1795</div>
+      </div>
+      <div class="col-sm-3 col-md-3 part part4" ng-click="app.changePart(15)">
+        <div class="footer-title">共和国的结束</div>
+        <div class="time">1795 - 1799</div>
+      </div>
+    </div>
+  </div>
+
+</div>
