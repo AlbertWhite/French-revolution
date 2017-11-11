@@ -16,3 +16,8 @@ https://albertwhite.github.io/French-revolution/#/index
 
 ## Why do I do that
 It is really a fantastic period of history. The impact and meaning of french revolution are enormous. The content and images are from Wikipedia.
+
+## Todo
+1. Add button to go forward to backward (with timer in the button for changing to another page)
+2. Add support for mobile phone
+3. Add the content for the revolution in Korea and other countries.
