@@ -10,8 +10,6 @@ body {
   font-size: 30px;
   padding: 20px; }
 
-.content {
-  transition: all 1s ease-in; }
   .content .col-md-6 {
     padding: 50px; }
   .content .content-title {
@@ -19,25 +17,24 @@ body {
     color: #fce080;
     margin-bottom: 50px; }
   .content .content-content {
-    font-size: 30px;
+    font-size: 20px;
     transition: all 0.05s ease-out; }
   .content img {
     max-width: 99%;
-    max-height: 400px;
-    margin: 100px auto 0px auto;
+    max-height: 300px;
+    margin: 50px auto 0px auto;
     display: block;
-    transition: all 3s ease-in; }
-    .content img:hover {
-      transform: scale(1.2); }
+    transition: all 3s ease-in;
+    }
   .content .image-description {
     display: block;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px; }
 
 .footer {
-  position: absolute;
-  bottom: 10px;
+  position: relative;
+  margin-top: 20px;
   width: 100%; }
   .footer .line {
     background: white;

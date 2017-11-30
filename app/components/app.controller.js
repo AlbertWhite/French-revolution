@@ -139,7 +139,7 @@
       }
 
       changeContent(vm, $scope);
-    }, 3000);
+    }, 6000);
 
   }
 
