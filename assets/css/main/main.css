@@ -1,5 +1,17 @@
+@font-face {
+  font-family: helvetica;
+  src: url("../../../assets/fonts/helvetica.eot"); }
+
+@font-face {
+  font-family: helvetica;
+  src: url("../../../assets/fonts/helvetica.ttf"); }
+
+@font-face {
+  font-family: helvetica;
+  src: url("../../../assets/fonts/helvetica.woff"); }
+
 body {
-  font-family: STSong;
+  font-family: helvetica;
   background-color: #181818;
   color: white; }
 
@@ -10,6 +22,8 @@ body {
   font-size: 30px;
   padding: 20px; }
 
+.content {
+  transition: all 1s ease-in; }
   .content .col-md-6 {
     padding: 50px; }
   .content .content-title {
@@ -24,8 +38,7 @@ body {
     max-height: 300px;
     margin: 50px auto 0px auto;
     display: block;
-    transition: all 3s ease-in;
-    }
+    transition: all 3s ease-in; }
   .content .image-description {
     display: block;
     text-align: center;
@@ -33,8 +46,8 @@ body {
     margin-top: 10px; }
 
 .footer {
-  position: relative;
-  margin-top: 20px;
+  position: absolute;
+  bottom: 10px;
   width: 100%; }
   .footer .line {
     background: white;
@@ -53,3 +66,8 @@ body {
         color: #fce080; }
     .footer .part .time {
       margin-top: 5px; }
+
+@media screen and (max-width: 800px) {
+  .footer {
+    position: relative;
+    margin-top: 20px; } }

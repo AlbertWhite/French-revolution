@@ -1,8 +1,23 @@
 $dark-yellow: #9c8d58;
 $light-yellow: #fce080;
 
+@font-face {
+    font-family: helvetica;
+    src: url('../../../assets/fonts/helvetica.eot');
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url('../../../assets/fonts/helvetica.ttf');
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url('../../../assets/fonts/helvetica.woff');
+}
+
 body{
-  font-family: STSong;
+  font-family: helvetica;
   background-color: #181818;
   color: white;
 }
@@ -27,23 +42,20 @@ body{
 
   }
   .content-content{
-    font-size: 30px;
+    font-size: 20px;
     transition: all 0.05s ease-out;
   }
   img{
     max-width: 99%;
-    max-height: 400px;
-    margin: 100px auto 0px auto;
+    max-height: 300px;
+    margin: 50px auto 0px auto;
     display: block;
     transition: all 3s ease-in;
-    &:hover{
-      transform: scale(1.2);
-    }
   }
   .image-description{
     display: block;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
   }
 }
@@ -73,5 +85,12 @@ body{
     .time{
       margin-top:5px;
     }
+  }
+}
+
+@media screen and (max-width: 800px){
+  .footer{
+    position: relative;
+    margin-top: 20px;
   }
 }
